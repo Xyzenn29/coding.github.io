@@ -1,0 +1,23 @@
+.game-container {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        .dino {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            bottom: 0;
+            background: green;
+        }
+
+        .cactus {
+            position: absolute;
+            width: 20px;
+            height: 60px;
+            right: 0;
+            bottom: 0;
+            background: red;
+        }
