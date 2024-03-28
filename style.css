@@ -1,23 +1,33 @@
-.game-container {
-            position: relative;
-            width: 400px;
-            height: 200px;
-            border: 1px solid black;
-        }
+     body {
+    margin:0;
+    height:100vh;
+    overflow:hidden;
+}
 
-        .dino {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            bottom: 0;
-            background: green;
-        }
+#toolbar {
+    position:absolute;
+    width:100%;
+    height:10%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    top:25%;
+}
 
-        .cactus {
-            position: absolute;
-            width: 20px;
-            height: 60px;
-            right: 0;
-            bottom: 0;
-            background: red;
-        }
+#toolbar > input {
+    align-self: center;
+    display:block;
+    margin:10px;
+    padding:15px;
+    color:lightgray;
+    background-color: teal;
+    border:2px solid lightgray;
+    outline:none;
+    border-radius:15px;
+    font-family: monospace;
+}
+
+
+canvas {
+    overflow:hidden;
+}
